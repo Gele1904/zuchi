@@ -8,8 +8,72 @@
 *::selection{
     color: #c00b0b;
 }
+
+/* Navbar */
+.navbar{
+    background: linear-gradient(to left, rgb(17, 17, 160), black 80%);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* height: 5rem; */
+}
+.navbar-toggler{
+    margin-right: 1rem;
+}
+
+.navbar-brand img{
+    max-width: 50px;
+    margin-left: 2rem;
+}
+
+.offcanvas-body{
+    background: linear-gradient(to bottom, rgb(17, 17, 160), black 80%);
+}
+.offcanvas-header{
+    background: linear-gradient(to left, rgb(17, 17, 160), black 80%);
+}
+
+.offcanvas-header img{
+    max-width: 200px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.dropdown-menu{
+    transition: ease-out 0.3s;
+}
+.nav-item{
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: ease-out 0.5s;
+}
+.nav-item:hover{
+    color: black !important;
+    padding-left: 2rem;
+    transition: 0.5s;
+}
+.nav-item:active{
+    padding: 0;
+    transition: 0.3s;
+}
+
+.dropdown-item:hover{
+    box-shadow: inset 400px 0 0 0 #1111a0 !important;
+    border-radius: 20px;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.dropdown-item:active{
+    box-shadow: inset 400px 0 0 0 red !important;
+    border-radius: 0 !important;
+}
+/* Navbar End */
+
+
 .start{
-    background: linear-gradient(to right, rgba(5, 5, 18, 0.35), rgba(5, 5, 18, 0.35));
+    background: linear-gradient(to right, rgba(0, 14, 212, 0.173), rgba(5, 5, 18, 0.35));
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -17,36 +81,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.navbar{
-    background: linear-gradient(to left, rgb(17, 17, 160), black 80%);
-    /* border-bottom-left-radius: 90px ;
-    border-bottom-right-radius: 90px; */
-    height: 5rem;
-}
-.navbar-toggler{
-    margin-right: 1rem;
-}
-
-.navbar img{
-    max-width: 50px;
-    margin-left: 2rem;
-}
-
-.offcanvas-header img{
-    max-width: 200px;
-}
-.offcanvas-header{
-    background: linear-gradient(to left, #1111a0, black 80%);
-}
-.nav-link{
-    color: white !important;
-}
-
-.offcanvas-body{
-    background: linear-gradient(to bottom, rgb(17, 17, 160), black 80%);
-}
-
 .button{
     display: inline-block;
     background: #1111a062;
@@ -140,7 +174,7 @@
 
 
 #about{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(Images/blue2.png);;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(Images/testtttt.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,7 +201,7 @@
     /* background: #1111a0ad; */
     background:
     /* top, transparent black, faked with gradient */ 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/blue2.png);
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url(Images/blue2.png);
     background-position: left center;
     background-size: cover;
     padding: 2rem;
@@ -208,13 +242,6 @@ span{
     margin-bottom: 2rem;
 }
 
-.recentGames{
-    display: inline-block;
-    padding: 0.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 50px 20px lightblue;
-}
-
 .youtube{
     display: inline-block;
     background-color: #c00b0b;
@@ -235,7 +262,7 @@ span{
     transition: none;
 }
 
-.dates a{
+.social-media a{
     text-decoration: none;
     color: white;
 }
@@ -301,4 +328,9 @@ span{
     color: black;
     transition: 0.5s;
 }
-/* TEST */
+
+.discord:active{
+    background: #c00b0b90;
+    box-shadow: 0 0 20px 10px #c00b0b;
+    transition: none;
+}
