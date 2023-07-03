@@ -59,7 +59,7 @@
 }
 
 .dropdown-item:hover{
-    box-shadow: inset 400px 0 0 0 #1111a0 !important;
+    box-shadow: inset 400px 0 0 0 #0066cc !important;
     border-radius: 20px;
     color: white !important;
     transition: 0.3s;
@@ -83,7 +83,7 @@
 }
 .button{
     display: inline-block;
-    background: #1111a062;
+    background: #1111a0c6;
     padding: 0.5rem;
     border-radius: 10px;
     margin-top: 20rem;
@@ -169,6 +169,28 @@
 @media(max-width: 768px){
     #about{
         height: 100% !important;
+    }
+    #DesignBackground{
+        height: 100% !important;
+    }
+    #DesignBackground .container{
+        display: flex;
+        justify-content: center;
+    }
+    #Design{
+        display: flex;
+        justify-content: center !important;
+    }
+    .content img{
+        height: 150px;
+        width: 250px;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .content img{
+        height: 150px !important;
+        width: 250px !important;
     }
 }
 
@@ -333,4 +355,83 @@ span{
     background: #c00b0b90;
     box-shadow: 0 0 20px 10px #c00b0b;
     transition: none;
+}
+
+#Design{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    min-height: 80vh !important;
+}
+
+#DesignBackground{
+    background: url(Images/graphicdesign.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+#DesignBackground .header{
+    margin-top: 15rem;
+}
+
+.content img{
+    height: 150px;
+    width: 250px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.content img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 20px 5px lightblue;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1500px){
+    .content img{
+        height: 100px;
+        width: 150px;
+    }
+} 
+
+#DesignBackground h2{
+    background: #0066cc;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    box-shadow: 0 0 20px 10px #0066cc;
+    border-radius: 10px;
+}
+
+.contact{
+    background: #0066cc;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #0066cc;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    width: 12rem;
+    transition: 0.3s;
+}
+
+
+.contact:hover{
+    box-shadow: 0 0 20px 10px white;
+    background: white;
+    color: black;
+    transition: 0.3s;
 }
