@@ -11,7 +11,8 @@
 
 /* Navbar */
 .navbar{
-    background: linear-gradient(to left, rgb(17, 17, 160), black 80%);
+    /* background: linear-gradient(to left, rgb(17, 17, 160), black 80%); */
+    background: linear-gradient(to left, #0033ff, black 80%);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     /* height: 5rem; */
@@ -26,10 +27,12 @@
 }
 
 .offcanvas-body{
-    background: linear-gradient(to bottom, rgb(17, 17, 160), black 80%);
+    /* background: linear-gradient(to bottom, rgb(17, 17, 160), black 80%); */
+    background: linear-gradient(to bottom, #0033ff, black 80%);
 }
 .offcanvas-header{
-    background: linear-gradient(to left, rgb(17, 17, 160), black 80%);
+    /* background: linear-gradient(to left, rgb(17, 17, 160), black 80%); */
+    background: linear-gradient(to left, #0033ff, black 80%);
 }
 
 .offcanvas-header img{
@@ -434,4 +437,12 @@ span{
     background: white;
     color: black;
     transition: 0.3s;
+}
+
+footer{
+    background: linear-gradient(to right, #0033ff, black 80%);
+}
+
+footer .list-unstyled a:hover{
+    color: #0033ff !important;
 }
