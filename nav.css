@@ -1,0 +1,64 @@
+/* Navbar */
+.navbar{
+    /* background: linear-gradient(to left, rgb(17, 17, 160), black 80%); */
+    background: linear-gradient(to left, #0033ff, black 80%);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* height: 5rem; */
+}
+.navbar-toggler{
+    margin-right: 1rem;
+}
+
+.navbar-brand img{
+    max-width: 50px;
+    margin-left: 2rem;
+}
+
+.offcanvas-body{
+    /* background: linear-gradient(to bottom, rgb(17, 17, 160), black 80%); */
+    background: linear-gradient(to bottom, #0033ff, black 80%);
+}
+.offcanvas-header{
+    /* background: linear-gradient(to left, rgb(17, 17, 160), black 80%); */
+    background: linear-gradient(to left, #0033ff, black 80%);
+}
+
+.offcanvas-header img{
+    max-width: 200px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.dropdown-menu{
+    transition: ease-out 0.3s;
+}
+.nav-item{
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: ease-out 0.5s;
+}
+.nav-item:hover{
+    color: black !important;
+    padding-left: 2rem;
+    transition: 0.5s;
+}
+.nav-item:active{
+    padding: 0;
+    transition: 0.3s;
+}
+
+.dropdown-item:hover{
+    box-shadow: inset 400px 0 0 0 #0066cc !important;
+    border-radius: 20px;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.dropdown-item:active{
+    box-shadow: inset 400px 0 0 0 red !important;
+    border-radius: 0 !important;
+}
+/* Navbar End */
