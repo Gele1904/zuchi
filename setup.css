@@ -38,9 +38,10 @@
     border-radius: 20px;
 }
 
-/* .desc{
-    text-align: justify;
-} */
+.desc{
+    font-size: larger;
+    font-weight: bold;
+}
 
 @media(max-width: 768px){
     .processor{
@@ -59,3 +60,10 @@
 }
 
 
+footer{
+    background: linear-gradient(to right, #0033ff, black 80%);
+}
+
+footer .list-unstyled a:hover{
+    color: #0066cc !important;
+}
